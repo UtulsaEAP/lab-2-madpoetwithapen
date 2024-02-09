@@ -5,11 +5,12 @@ def real_estate():
     last_month_price = int(input())
     # Your code goes here
    
-    import math 
-    price_change = ((current_price) - (last_month_price))
+    
+    price_change=((current_price) - (last_month_price))
     mortage=((current_price * 0.051) / 12)
 
-    print ("This house is $" (current_price) " The change is $" " since last month.")
+    print ("This house is $" + (current_price) + " The change is $" + price_change + " since last month.")
+    print ("The estimated monthly mortage is"+f'{mortage:.2f}'+".")
 
 
 
